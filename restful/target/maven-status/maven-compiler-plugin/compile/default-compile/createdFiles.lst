@@ -1,0 +1,5 @@
+com/example/restful/controller/ClientController.class
+com/example/restful/RestfulApplication.class
+com/example/restful/service/ClientService.class
+com/example/restful/model/Client.class
+com/example/restful/service/ClientServiceImpl.class
