@@ -10,7 +10,7 @@ public interface ClientService {
     boolean create(Client client);
     List<Client> readAll();
 
-    Client read(int id) throws SQLException;
+    Client read(int id);
 
     boolean update(int id, Client client);
 

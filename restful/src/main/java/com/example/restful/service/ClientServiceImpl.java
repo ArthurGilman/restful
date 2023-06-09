@@ -67,7 +67,7 @@ public class ClientServiceImpl implements ClientService {
     }
 
     @Override
-    public Client read(int id) throws SQLException {
+    public Client read(int id){
         Client client = null;
         try {
             String sqlQuery = "SELECT * FROM client WHERE id = ?";

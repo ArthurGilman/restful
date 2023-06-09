@@ -23,7 +23,7 @@ public class ClientController {
 
 
     @GetMapping(value = "/clients/{id}")
-    public ResponseEntity<Client> getClient(@PathVariable("id") int id) throws SQLException {
+    public ResponseEntity<Client> getClient(@PathVariable("id") int id) {
         Client client = clientService.read(id);
         return  client != null
                 ? new ResponseEntity<>(client, HttpStatus.OK)
